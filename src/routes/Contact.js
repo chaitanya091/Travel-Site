@@ -1,7 +1,21 @@
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+
+// change image from here
+import AboutImg from "../assets/5.jpg";
+
+
 function Contact(){
     return(
         <>  
-            <h1>This is Contact</h1>
+        <Navbar/>
+           <Hero
+        cName="hero-mid"
+        heroImg={AboutImg}
+        title="Contact"
+          
+        btnClass="hide"
+        />
         </>
     )
 }
