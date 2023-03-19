@@ -2,7 +2,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import AboutImg from "../assets/4.jpg";
 import "../components/HeroStyles.css";
-
+import Footer from "../components/Footer"
 function About(){
     return(
         <>  
@@ -14,6 +14,7 @@ function About(){
           
         btnClass="hide"
         />
+        <Footer/>
         </>
     )
 }
