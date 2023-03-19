@@ -40,12 +40,24 @@
     right: 0;
 }
 
+/* for reversing the second component of home */
+.first-des-reverse{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
 @media screen and (max-width:850px){
     .destination{
         margin:4rem 2rem;
-     
     }
     .first-des{
+        display:flex;
+        flex-direction: column-reverse;
+        margin-top: 2.5rem;
+    }
+    .first-des-reverse{
         display:flex;
         flex-direction: column-reverse;
         margin-top: 2.5rem;
@@ -63,10 +75,3 @@
 }
  
 
-/* for reversing the second component of home */
-.first-des-reverse{
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-top: 4.5rem;
-}
