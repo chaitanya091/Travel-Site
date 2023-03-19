@@ -1,0 +1,28 @@
+  
+.flex-container {
+    margin-top: 30px;
+    display: flex;
+    margin-right: 3rem;
+}
+
+.flex-child {
+    flex: 1;
+    margin-left:5rem;
+    margin-top: 5rem;
+    text-align: start;
+}  
+
+.flex-child:first-child {
+    margin-right: -20px;
+} 
+@media screen and (max-width:850px) {
+    .flex-container {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+address{
+    font-style: normal;
+}
