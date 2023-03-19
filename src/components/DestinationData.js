@@ -1,10 +1,7 @@
 import { Component } from "react";
 import "./DestinationStyles.css";
-import Mounting1 from "../assets/9.jpg";
-import Mounting2 from "../assets/10.jpg";
-import Mounting3 from "../assets/11.jpg";
-import Mounting4 from "../assets/12.jpg";
-import Destination from "./Destination";
+ 
+ 
 class DestinationData extends Component{
     render(){
         return(
