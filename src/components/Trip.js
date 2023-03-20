@@ -13,8 +13,8 @@ function Trip(){
             <div className="tripcard">
                 <TripData
                 image={Trip1}
-                heading="Trip in Indonasia"
-                text="Indonaesia, officially the Republic of Indonesia, is a country in southeast Asia and Oceania between the Indian and Pacific oceans.it consists of over 17,000 Islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea. "
+                heading="Trip in Indonesia"
+                text="Indonesia, officially the Republic of Indonesia, is a country in southeast Asia and Oceania between the Indian and Pacific oceans.it consists of over 17,000 Islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea. "
                 />
 
                 <TripData

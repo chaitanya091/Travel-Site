@@ -2,26 +2,32 @@
 .flex-container {
     margin-top: 30px;
     display: flex;
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .flex-child {
     flex: 1;
-    margin-left:5rem;
+    margin-left:4rem;
     margin-top: 5rem;
     text-align: start;
 }  
 
-.flex-child:first-child {
-    margin-right: -20px;
-} 
+.map{
+    width:600PX;
+    height:450PX;
+    border:0; 
+}
 @media screen and (max-width:850px) {
     .flex-container {
         margin-top: 30px;
         display: flex;
         flex-direction: column;
     }
-    
+    .map{
+        width:95%;
+        height:450PX;
+        border:0; 
+    }
 }
 address{
     font-style: normal;
